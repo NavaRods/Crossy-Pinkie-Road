@@ -27,6 +27,7 @@ func _on_request_completed(result, response_code, headers, body):
 		elif hora >= 18 and hora < 20: estado = "atardecer"
 		else: estado = "noche"
 		
+		estado = "noche"
 		GameManager.clima_actual = estado
 			
 		print("Hora real: ", hora, " -> Estado: ", estado)

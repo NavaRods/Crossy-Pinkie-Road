@@ -52,7 +52,6 @@ func die():
 	reiniciar_nivel()
 
 func reiniciar_nivel():
-	# Recarga la escena actual
-	# Esto en teoria no deberia de seguir siendo necesario ya que la camara se convierte
-	# en hijo de Player, sin embargo no funcionas
-	get_tree().reload_current_scene()
+	GameManager.actualizar_puntuacion_final(GameManager.score_actual)
+	var ir_escena = preload("res://GameOver.tscn").instantiate()
+	get_tree().current_scene.add_child(ir_escena)
