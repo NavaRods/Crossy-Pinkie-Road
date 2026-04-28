@@ -627,6 +627,7 @@ shape = SubResource("BoxShape3D_606se")
 
 [node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1385186922]
 transform = Transform3D(-3.747269e-08, 0.5148586, -0.8572752, 2.2505183e-08, 0.8572752, 0.5148586, 1, 1.7763568e-15, -4.3711395e-08, 1.1480408, 3.0938687, 0)
+visible = false
 light_energy = 20.0
 light_bake_mode = 1
 shadow_enabled = true
