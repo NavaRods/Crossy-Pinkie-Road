@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bec2goldgb64j"]
+
+[ext_resource type="Script" uid="uid://dugcg82fk4kq3" path="res://agua.gd" id="1_ldk1s"]
+[ext_resource type="PackedScene" uid="uid://blgean32grf1" path="res://Obstaculos/tronco.tscn" id="2_2mug6"]
+[ext_resource type="PackedScene" uid="uid://do1j8l2y1uwno" path="res://manzana.tscn" id="3_veh4v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bkt1y"]
+albedo_color = Color(0.19016147, 0.42258674, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ldk1s"]
+albedo_color = Color(0.030459257, 0.28494272, 0.9999966, 1)
+
+[node name="Agua" type="CSGBox3D" unique_id=1023484011]
+use_collision = true
+collision_layer = 16
+collision_mask = 0
+size = Vector3(7, 0.1, 70)
+material = SubResource("StandardMaterial3D_bkt1y")
+script = ExtResource("1_ldk1s")
+tronco_escena = ExtResource("2_2mug6")
+manzana_scena = ExtResource("3_veh4v")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=878063802]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 49)
+size = Vector3(7, 0.1, 28)
+material = SubResource("StandardMaterial3D_ldk1s")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1339867861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -49)
+size = Vector3(7, 0.1, 28)
+material = SubResource("StandardMaterial3D_ldk1s")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bl7uicxx8c546"]
+
+[ext_resource type="PackedScene" uid="uid://qq47tfak18up" path="res://NPC/kenney_pirate-kit/Models/GLB format/grass-patch.glb" id="1_o7tmq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3hu18"]
+
+[node name="StaticBody3D" type="StaticBody3D" unique_id=1842768749]
+collision_layer = 0
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=450538125]
+transform = Transform3D(6, 0, 0, 0, 1, 0, 0, 0, 6, 0, 0.061, 0)
+shape = SubResource("BoxShape3D_3hu18")
+
+[node name="grass-patch2" parent="CollisionShape3D" unique_id=492189691 instance=ExtResource("1_o7tmq")]
+transform = Transform3D(0.7, 0, 0, 0, 3, 0, 0, 0, 0.7, 0, 0, 0)

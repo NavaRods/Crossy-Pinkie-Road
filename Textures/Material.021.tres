@@ -1,0 +1,5 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://djdw74rl7bou"]
+
+[resource]
+resource_name = "Material.021"
+cull_mode = 2

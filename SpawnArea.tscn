@@ -1,0 +1,258 @@
+[gd_scene format=3 uid="uid://dekpu3ybxs4k0"]
+
+[ext_resource type="PackedScene" uid="uid://qq47tfak18up" path="res://NPC/kenney_pirate-kit/Models/GLB format/grass-patch.glb" id="1_y2uq8"]
+[ext_resource type="PackedScene" uid="uid://b6eop834kwk2w" path="res://NPC/kenney_graveyard-kit_5.0/Models/GLB format/rocks-tall.glb" id="3_mcmwg"]
+[ext_resource type="PackedScene" uid="uid://cm7ot38jpd24p" path="res://NPC/kenney_graveyard-kit_5.0/Models/GLB format/rocks.glb" id="4_q8wbq"]
+[ext_resource type="PackedScene" uid="uid://df18mubtvxccp" path="res://NPC/kenney_graveyard-kit_5.0/Models/GLB format/hay-bale-bundled.glb" id="5_jfpw1"]
+[ext_resource type="PackedScene" uid="uid://4l1ldwb2jeg" path="res://NPC/kenney_survival-kit/Models/GLB format/bedroll-frame.glb" id="6_thhty"]
+[ext_resource type="PackedScene" uid="uid://bsb6h1x4w5s48" path="res://NPC/kenney_survival-kit/Models/GLB format/tree-log-small.glb" id="7_5uu2u"]
+[ext_resource type="PackedScene" uid="uid://bkl6mmlcxuk8l" path="res://NPC/kenney_survival-kit/Models/GLB format/tool-axe.glb" id="8_wvxnn"]
+[ext_resource type="PackedScene" uid="uid://1llbqqakkl5j" path="res://NPC/kenney_survival-kit/Models/GLB format/campfire-pit.glb" id="9_t2ieo"]
+[ext_resource type="PackedScene" uid="uid://be3o1nlj1kivd" path="res://NPC/kenney_survival-kit/Models/GLB format/rock-a.glb" id="10_x0d6i"]
+[ext_resource type="PackedScene" uid="uid://djb48dx1vqjid" path="res://NPC/kenney_survival-kit/Models/GLB format/rock-b.glb" id="11_q0w2g"]
+[ext_resource type="PackedScene" uid="uid://ds2gcakys1qb2" path="res://NPC/kenney_survival-kit/Models/GLB format/rock-c.glb" id="12_17r70"]
+[ext_resource type="PackedScene" uid="uid://dd4dig84dd00u" path="res://NPC/kenney_pirate-kit/Models/GLB format/hole.glb" id="13_tjwrb"]
+[ext_resource type="PackedScene" uid="uid://mh6lchusdbo1" path="res://NPC/kenney_survival-kit/Models/GLB format/bedroll.glb" id="14_htf7l"]
+[ext_resource type="PackedScene" uid="uid://ditqvgar06cu8" path="res://NPC/kenney_survival-kit/Models/GLB format/signpost-single.glb" id="15_ea64d"]
+[ext_resource type="PackedScene" uid="uid://cy1284atf13os" path="res://NPC/kenney_survival-kit/Models/GLB format/bucket.glb" id="16_rsh8t"]
+[ext_resource type="PackedScene" uid="uid://mklqcjptf0nf" path="res://NPC/kenney_survival-kit/Models/GLB format/tent-canvas.glb" id="17_n2sj0"]
+[ext_resource type="PackedScene" uid="uid://c7dg4cu3iifwe" path="res://NPC/kenney_survival-kit/Models/GLB format/tree-tall.glb" id="18_8ct4o"]
+[ext_resource type="PackedScene" uid="uid://bgmdpgf8iwg1t" path="res://NPC/kenney_survival-kit/Models/GLB format/tree.glb" id="19_1ka8u"]
+[ext_resource type="PackedScene" uid="uid://dp4u6p5lxbu16" path="res://NPC/kenney_survival-kit/Models/GLB format/resource-planks.glb" id="20_4puxx"]
+[ext_resource type="PackedScene" uid="uid://cw8d6it6vdujx" path="res://NPC/kenney_pirate-kit/Models/GLB format/patch-grass-foliage.glb" id="21_bga4r"]
+[ext_resource type="PackedScene" uid="uid://b263jiuu5eubj" path="res://NPC/kenney_survival-kit/Models/GLB format/fish-large.glb" id="22_ffm33"]
+[ext_resource type="PackedScene" uid="uid://cibu23uw0uv4d" path="res://NPC/kenney_pirate-kit/Models/GLB format/patch-sand.glb" id="23_alci3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7tkv"]
+albedo_color = Color(0.28627452, 0.5137255, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p30hw"]
+albedo_color = Color(0.22369248, 0.40943396, 0, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_1kgrl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hmm2k"]
+albedo_color = Color(0.1882353, 0.42352942, 1, 1)
+
+[node name="SpawnArea" type="Node3D" unique_id=923543328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 0)
+
+[node name="grass-patch4" parent="." unique_id=492189691 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, 3.0597515, 0.01524353, -8.813218)
+
+[node name="grass-patch5" parent="." unique_id=362215413 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, -0.541111, 0.01524353, -10.604378)
+
+[node name="grass-patch6" parent="." unique_id=17233932 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, -1.4892569, 0.01524353, 11.390258)
+
+[node name="grass-patch7" parent="." unique_id=141961286 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, -3.0918703, 0.01524353, 8.269657)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1676229436]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -7, 0, 0)
+size = Vector3(63, 0.1, 70)
+material = SubResource("StandardMaterial3D_i7tkv")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=1173674908]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 0.9999999, -7, 0, 52.5)
+size = Vector3(63, 0.1, 35)
+material = SubResource("StandardMaterial3D_p30hw")
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1299191428]
+transform = Transform3D(0.9999998, 0, 0, 0, 1, 0, 0, 0, 0.9999998, -7, 0, -52.5)
+size = Vector3(63, 0.1, 35)
+material = SubResource("StandardMaterial3D_p30hw")
+
+[node name="grass-patch3" parent="." unique_id=33329360 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, -9.536743e-07, 0, -6.999999)
+
+[node name="grass-patch2" parent="." unique_id=1144347029 instance=ExtResource("1_y2uq8")]
+transform = Transform3D(2.9999998, 0, 0, 0, 3, 0, 0, 0, 2.9999998, -9.536743e-07, 0, 6.9999995)
+
+[node name="rocks-tall2" parent="." unique_id=1552424714 instance=ExtResource("3_mcmwg")]
+transform = Transform3D(5.9999995, 0, 0, 0, 6, 0, 0, 0, 5.9999995, -7.310206, 0, 5.4673424)
+
+[node name="rocks2" parent="." unique_id=1638762639 instance=ExtResource("4_q8wbq")]
+transform = Transform3D(5.9999995, 0, 0, 0, 6, 0, 0, 0, 5.9999995, -7.054678, 0, 3.3400373)
+
+[node name="rocks2" parent="rocks2" unique_id=285569591 instance=ExtResource("4_q8wbq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.580371)
+
+[node name="hay-bale-bundled2" parent="." unique_id=1639273798 instance=ExtResource("5_jfpw1")]
+transform = Transform3D(5.9999995, 0, 0, 0, 6, 0, 0, 0, 5.9999995, 10.56201, 0, -17.101624)
+
+[node name="hay-bale-bundled2" parent="hay-bale-bundled2" unique_id=1587029982 instance=ExtResource("5_jfpw1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.43125248)
+
+[node name="hay-bale-bundled2" parent="hay-bale-bundled2/hay-bale-bundled2" unique_id=1375911406 instance=ExtResource("5_jfpw1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.312641, -0.19545698)
+
+[node name="bedroll-frame2" parent="." unique_id=743752910 instance=ExtResource("6_thhty")]
+transform = Transform3D(8.999999, 0, 0, 0, 9, 0, 0, 0, 8.999999, 8.7146, 0, -29.75015)
+
+[node name="tree-log-small2" parent="bedroll-frame2" unique_id=1721989944 instance=ExtResource("7_5uu2u")]
+transform = Transform3D(0.7777778, 0, 0, 0, 0.7777778, 0, 0, 0, 0.7777778, 0.007250041, 0.08458795, -0.0043370724)
+
+[node name="tool-axe2" parent="bedroll-frame2" unique_id=1840350874 instance=ExtResource("8_wvxnn")]
+transform = Transform3D(0.3586802, -0.6901355, 0, 0.6901355, 0.3586802, 0, 0, 0, 0.7777779, 0.1855604, 0.1952563, 0.001064539)
+
+[node name="campfire-pit2" parent="." unique_id=436099049 instance=ExtResource("9_t2ieo")]
+transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 3.459837, 0, -20.614927)
+
+[node name="rock-a2" parent="." unique_id=294977896 instance=ExtResource("10_x0d6i")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -9.596925, 0, -22.006376)
+
+[node name="rock-b2" parent="." unique_id=1453521948 instance=ExtResource("11_q0w2g")]
+transform = Transform3D(9.999999, 0, 0, 0, 10, 0, 0, 0, 9.999999, -13.529358, 0, -25.583677)
+
+[node name="rock-c2" parent="." unique_id=590864546 instance=ExtResource("12_17r70")]
+transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, -10.080933, 0, -30.044006)
+
+[node name="hole2" parent="." unique_id=136878813 instance=ExtResource("13_tjwrb")]
+transform = Transform3D(1.4999999, 0, 0, 0, 1.5, 0, 0, 0, 1.4999999, -7.0900006, 0.1, -25.515999)
+
+[node name="bedroll2" parent="." unique_id=518008337 instance=ExtResource("14_htf7l")]
+transform = Transform3D(-3.3809464, 0, 7.2504616, 0, 8, 0, -7.2504616, 0, -3.3809464, -5.968761, 0.1, -19.44692)
+
+[node name="signpost-single2" parent="." unique_id=681258852 instance=ExtResource("15_ea64d")]
+transform = Transform3D(-9.999999, 0, -8.742278e-07, 0, 10, 0, 8.742278e-07, 0, -9.999999, 13.630247, 0, -12.708405)
+
+[node name="bucket2" parent="." unique_id=121229587 instance=ExtResource("16_rsh8t")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -4.6438, 0, -27.107054)
+
+[node name="tent-canvas2" parent="." unique_id=1801391323 instance=ExtResource("17_n2sj0")]
+transform = Transform3D(-4.226183, 0, 9.063077, 0, 10, 0, -9.063077, 0, -4.226183, -7.3410654, 0, -18.654236)
+
+[node name="tree-tall2" parent="." unique_id=387050742 instance=ExtResource("18_8ct4o")]
+transform = Transform3D(9.999999, 0, 0, 0, 10, 0, 0, 0, 9.999999, -2.531129, 0, -32.047363)
+
+[node name="tree2" parent="." unique_id=1189836074 instance=ExtResource("19_1ka8u")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, 2.2578106, 0, -31.889526)
+
+[node name="resource-planks2" parent="." unique_id=1496680311 instance=ExtResource("20_4puxx")]
+transform = Transform3D(3.9999998, 0, 0, 0, 4, 0, 0, 0, 3.9999998, 4.745737, 0, -29.387896)
+
+[node name="resource-planks2" parent="resource-planks2" unique_id=708947862 instance=ExtResource("20_4puxx")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.2529843, 0, 0)
+
+[node name="rocks-tall3" parent="." unique_id=1709017878 instance=ExtResource("3_mcmwg")]
+transform = Transform3D(5.9999995, 0, 0, 0, 6, 0, 0, 0, 5.9999995, -0.71156406, 0, -31.477547)
+
+[node name="patch-grass-foliage2" parent="." unique_id=1136038246 instance=ExtResource("21_bga4r")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 1.1591845, 0, -29.58566)
+
+[node name="rock-a3" parent="." unique_id=1286640409 instance=ExtResource("10_x0d6i")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -9.596925, 0, -9.935292)
+
+[node name="rock-b3" parent="." unique_id=1876335442 instance=ExtResource("11_q0w2g")]
+transform = Transform3D(9.999999, 0, 0, 0, 10, 0, 0, 0, 9.999999, -14.26332, 0, -5.862354)
+
+[node name="rock-c3" parent="." unique_id=635137817 instance=ExtResource("12_17r70")]
+transform = Transform3D(-6.5567076e-07, 0, 15, 0, 15, 0, -15, 0, -6.5567076e-07, -14.009359, 0, -15.023477)
+
+[node name="rock-c4" parent="." unique_id=842236578 instance=ExtResource("12_17r70")]
+transform = Transform3D(1.788732e-07, 0, -15, 0, 15, 0, 15, 0, 1.788732e-07, -14.009359, 0, 4.78893)
+
+[node name="rock-a4" parent="." unique_id=2059899053 instance=ExtResource("10_x0d6i")]
+transform = Transform3D(-6.9999995, 0, -6.1195936e-07, 0, 7, 0, 6.1195936e-07, 0, -6.9999995, -9.596925, 0, 27.181921)
+
+[node name="rock-b4" parent="." unique_id=1853327217 instance=ExtResource("11_q0w2g")]
+transform = Transform3D(-9.999999, 0, -8.742278e-07, 0, 10, 0, 8.742278e-07, 0, -9.999999, -13.529358, 0, 28.529268)
+
+[node name="rock-c5" parent="." unique_id=498027140 instance=ExtResource("12_17r70")]
+transform = Transform3D(-15, 0, -1.3113415e-06, 0, 15, 0, 1.3113415e-06, 0, -15, -10.080933, 0, 32.181454)
+
+[node name="tree3" parent="." unique_id=998608471 instance=ExtResource("19_1ka8u")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -12.068956, 0, 22.409103)
+
+[node name="tree4" parent="." unique_id=2018668854 instance=ExtResource("19_1ka8u")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -13.903634, 0, 16.198046)
+
+[node name="tree5" parent="." unique_id=1617631835 instance=ExtResource("19_1ka8u")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -12.201555, 0, 12.434054)
+
+[node name="tree6" parent="." unique_id=1621792597 instance=ExtResource("19_1ka8u")]
+transform = Transform3D(6.9999995, 0, 0, 0, 7, 0, 0, 0, 6.9999995, -10.345318, 0, 18.637823)
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="." unique_id=1771780690]
+transform = Transform3D(9.999999, 0, 0, 0, 0.1, 0, 0, 0, 9.999999, 6.119999, 0.001721479, 20.801998)
+mesh = SubResource("CylinderMesh_1kgrl")
+material = SubResource("StandardMaterial3D_hmm2k")
+
+[node name="hole3" parent="." unique_id=1912386788 instance=ExtResource("13_tjwrb")]
+transform = Transform3D(6.9999995, 0, 0, 0, 1, 0, 0, 0, 6.9999995, 6.1229973, 0.02, 21.312998)
+
+[node name="fish-large2" parent="." unique_id=1295086258 instance=ExtResource("22_ffm33")]
+transform = Transform3D(6.9999995, 0, 0, 0, -3.059797e-07, -7, 0, 6.9999995, -3.0597968e-07, 5.886997, 0.112, 21.011997)
+
+[node name="patch-sand2" parent="." unique_id=1650996434 instance=ExtResource("23_alci3")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -0.97324944, -1.9073486e-06, 0.3874743)
+
+[node name="patch-sand2" parent="patch-sand2" unique_id=1941904261 instance=ExtResource("23_alci3")]
+transform = Transform3D(-0.06975648, 0, 0.9975641, 0, 1, 0, -0.9975641, 0, -0.06975648, 4.915925, -1.9073486e-06, 0.3874743)
+
+[node name="patch-sand3" parent="patch-sand2" unique_id=898105582 instance=ExtResource("23_alci3")]
+transform = Transform3D(0.63607824, 0, 0.77162457, 0, 1, 0, -0.77162457, 0, 0.63607824, 8.052344, -1.9073486e-06, -1.68505)
+
+[node name="patch-sand4" parent="patch-sand2" unique_id=1105107873 instance=ExtResource("23_alci3")]
+transform = Transform3D(0.63607824, 0, 0.77162457, 0, 1, 0, -0.77162457, 0, 0.63607824, 8.052344, -1.9073486e-06, 1.6558552)
+
+[node name="patch-sand5" parent="patch-sand2" unique_id=18720935 instance=ExtResource("23_alci3")]
+transform = Transform3D(0.4694716, 0, 0.88294756, 0, 1, 0, -0.88294756, 0, 0.4694716, 12.1091585, -1.9073486e-06, 0.4626751)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=10675634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.304932, 0, 0.0847168)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(7.8221436, 1, 69.57178)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=942956039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20479584, 0, -30.594746)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(21.551697, 1, 8.497253)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=1317687512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2497787, 0, -17.973661)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(6.6425476, 1, 18.410248)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1727612959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2497787, 0, 4.6484985)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(6.6425476, 1, 5.5381317)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=494700752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.519897, 0, -14.677303)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(6.6425476, 1, 5.5381317)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=1188877997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.674452, 0, 21.529676)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(7.3692894, 1, 7.9249907)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=953753658]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2497787, 0, 29.941154)
+visible = false
+use_collision = true
+collision_layer = 4
+collision_mask = 0
+size = Vector3(6.6425476, 1, 9.732445)

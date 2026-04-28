@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://c16xqrp7fhmwm"]
+
+[ext_resource type="Script" uid="uid://buiqclh4qkjju" path="res://vehiculo.gd" id="1_vj704"]
+[ext_resource type="PackedScene" uid="uid://fbcg1oum3pqn" path="res://NPC/kenney_car-kit/Models/GLB format/ambulance.glb" id="1_wxdr2"]
+[ext_resource type="AudioStream" uid="uid://dqnmeouw7pb51" path="res://Songs/scottishperson-sound-effect-uk-ambulance-siren-164354.wav" id="3_vj704"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xctpj"]
+size = Vector3(11, 1, 4)
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" unique_id=1931756095 groups=["Vehiculos"]]
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("1_vj704")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=642403409]
+shape = SubResource("BoxShape3D_xctpj")
+
+[node name="ambulance" parent="CollisionShape3D" unique_id=1602039491 instance=ExtResource("1_wxdr2")]
+transform = Transform3D(-1.3113416e-07, 0, 3, 0, 3, 0, -3, 0, -1.3113416e-07, 0, 0, 0)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="CollisionShape3D/ambulance" unique_id=1595931331]
+transform = Transform3D(-1.4570462e-08, 0, -0.33333334, 0, 0.33333334, 0, 0.33333334, 0, -1.4570462e-08, 0, 0, 0)
+stream = ExtResource("3_vj704")
+autoplay = true
+max_distance = 28.0
+playback_type = 1
+doppler_tracking = 2
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=624363909]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54144025, 5.2886395, 1.1936147)
+visible = false
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1613383212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6127143, 5.2977247, -1.1982274)
+visible = false
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=1756963220]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0689044, 4.396969, 1.1833271)
+visible = false
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=2055884402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1401784, 4.4060545, -1.208515)
+visible = false
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=185271770]
+transform = Transform3D(-3.2013087e-08, 0.5, -0.8660254, 2.0262053e-08, 0.8660254, 0.5, 1, -1.5409096e-09, -3.7855173e-08, 4.8058133, 1.8106792, 1.2380972)
+visible = false
+light_energy = 20.0
+light_bake_mode = 1
+spot_range = 10.0
+spot_attenuation = 1.6
+spot_angle = 23.711983
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="." unique_id=1678125699]
+transform = Transform3D(-3.2013087e-08, 0.5, -0.8660254, 2.0262053e-08, 0.8660254, 0.5, 1, -1.5409096e-09, -3.7855173e-08, 4.8058133, 1.8106792, -1.2246547)
+visible = false
+light_energy = 20.0
+light_bake_mode = 1
+spot_range = 10.0
+spot_attenuation = 1.6
+spot_angle = 23.711983

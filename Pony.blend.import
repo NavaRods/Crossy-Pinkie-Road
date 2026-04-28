@@ -1,0 +1,188 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://celmwtb8ab4b"
+path="res://.godot/imported/Pony.blend-fb4aff78f6946310c3901c0bc0d39d71.scn"
+
+[deps]
+
+source_file="res://Pony.blend"
+dest_files=["res://.godot/imported/Pony.blend-fb4aff78f6946310c3901c0bc0d39d71.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"Color_Cabeza": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Color_Cabeza.tres",
+"use_external/path": "uid://2tfiqvaqixam"
+},
+"Material": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.tres",
+"use_external/path": "uid://b67laa45t7xpe"
+},
+"Material.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.001.tres",
+"use_external/path": "uid://w5p3pkb8po8d"
+},
+"Material.002": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.002.tres",
+"use_external/path": "uid://3y7ydj2ai0wr"
+},
+"Material.003": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.003.tres",
+"use_external/path": "uid://c4whggax4t7g7"
+},
+"Material.004": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.004.tres",
+"use_external/path": "uid://dat2mqrjvmbue"
+},
+"Material.005": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.005.tres",
+"use_external/path": "uid://nwltws8xval6"
+},
+"Material.006": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.006.tres",
+"use_external/path": "uid://ceoh2ds4dsfop"
+},
+"Material.007": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.007.tres",
+"use_external/path": "uid://cwvekshk4bd7f"
+},
+"Material.008": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.008.tres",
+"use_external/path": "uid://dahdkbpo3bl14"
+},
+"Material.009": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.009.tres",
+"use_external/path": "uid://dflylpcbjj4yn"
+},
+"Material.011": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.011.tres",
+"use_external/path": "uid://cwdglc7qj5fnb"
+},
+"Material.012": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.012.tres",
+"use_external/path": "uid://cw21x4tvrnicm"
+},
+"Material.013": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.013.tres",
+"use_external/path": "uid://dwixqi0xqvd1l"
+},
+"Material.017": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.017.tres",
+"use_external/path": "uid://b3uv1ccl0tyju"
+},
+"Material.018": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.018.tres",
+"use_external/path": "uid://c2dmrf6ogcb04"
+},
+"Material.019": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.019.tres",
+"use_external/path": "uid://dsrvstixvi126"
+},
+"Material.020": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.020.tres",
+"use_external/path": "uid://bkk1kdwjct5rv"
+},
+"Material.021": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.021.tres",
+"use_external/path": "uid://djdw74rl7bou"
+},
+"Material.022": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.022.tres",
+"use_external/path": "uid://bh4vs73fn2u0u"
+},
+"Material.023": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.023.tres",
+"use_external/path": "uid://bufn35r3e1oeh"
+},
+"Material.024": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.024.tres",
+"use_external/path": "uid://dhsaqofwyicq2"
+},
+"Material.025": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.025.tres",
+"use_external/path": "uid://dwtxpeji1uwuk"
+},
+"Material.026": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.026.tres",
+"use_external/path": "uid://c2ec31ng71ekh"
+},
+"Material.027": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Material.027.tres",
+"use_external/path": "uid://b4ft5d73u22iw"
+}
+}
+}
+blender/nodes/visible=0
+blender/nodes/active_collection_only=false
+blender/nodes/punctual_lights=true
+blender/nodes/cameras=true
+blender/nodes/custom_properties=true
+blender/nodes/modifiers=1
+blender/meshes/colors=false
+blender/meshes/uvs=true
+blender/meshes/normals=true
+blender/meshes/export_geometry_nodes_instances=false
+blender/meshes/gpu_instances=false
+blender/meshes/tangents=true
+blender/meshes/skins=2
+blender/meshes/export_bones_deforming_mesh_only=false
+blender/materials/unpack_enabled=true
+blender/materials/export_materials=1
+blender/animation/limit_playback=true
+blender/animation/always_sample=true
+blender/animation/group_tracks=true
+gltf/naming_version=2

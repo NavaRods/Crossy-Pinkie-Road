@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bwltbwjt7v5xf"]
+
+[ext_resource type="Script" uid="uid://ckra014a5q5dq" path="res://servicio_tiempo.gd" id="1_kcdfe"]
+
+[node name="ServicioTiempo" type="HTTPRequest" unique_id=886463358]
+script = ExtResource("1_kcdfe")

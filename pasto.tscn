@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://ogow5tlcrrau"]
+
+[ext_resource type="Script" uid="uid://by7s48egwepix" path="res://pasto.gd" id="1_cb6hs"]
+[ext_resource type="PackedScene" uid="uid://1uwym45hh3p" path="res://Obstaculos/barrel.tscn" id="2_5oid0"]
+[ext_resource type="PackedScene" uid="uid://wab4kl8vfhnk" path="res://Obstaculos/bench-damaged.tscn" id="3_7qtf5"]
+[ext_resource type="PackedScene" uid="uid://qndwtu31nvxh" path="res://Obstaculos/bench.tscn" id="4_5mexk"]
+[ext_resource type="PackedScene" uid="uid://bnui0rir048fy" path="res://Obstaculos/hay_bale-bundled.tscn" id="5_7rnfu"]
+[ext_resource type="PackedScene" uid="uid://i7uoy1iqi6n" path="res://Obstaculos/hole.tscn" id="6_tiikd"]
+[ext_resource type="PackedScene" uid="uid://d1uuufd27nhxp" path="res://Obstaculos/rocks-tall.tscn" id="7_01ax8"]
+[ext_resource type="PackedScene" uid="uid://b58q2fe7xmhsy" path="res://Obstaculos/rocks.tscn" id="8_p6t7j"]
+[ext_resource type="PackedScene" uid="uid://be001oejh6nqy" path="res://Obstaculos/singpost-single.tscn" id="9_012q1"]
+[ext_resource type="PackedScene" uid="uid://bf5xgcalf8gsd" path="res://Obstaculos/singpost.tscn" id="10_a8k3f"]
+[ext_resource type="PackedScene" uid="uid://c0ii8nler163b" path="res://Obstaculos/tree-autumn.tscn" id="11_x6jcm"]
+[ext_resource type="PackedScene" uid="uid://c734tcd8yx3xj" path="res://Obstaculos/tree.tscn" id="12_0oga3"]
+[ext_resource type="PackedScene" uid="uid://bl7uicxx8c546" path="res://Obstaculos/grass_tall.tscn" id="13_5oid0"]
+[ext_resource type="PackedScene" uid="uid://do1j8l2y1uwno" path="res://manzana.tscn" id="14_7qtf5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dv12t"]
+albedo_color = Color(0.28627452, 0.5137255, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n4ck0"]
+albedo_color = Color(0.22369248, 0.40943396, 0, 1)
+
+[node name="Pasto" type="CSGBox3D" unique_id=443556070]
+size = Vector3(7, 0.1, 70)
+material = SubResource("StandardMaterial3D_dv12t")
+script = ExtResource("1_cb6hs")
+escenas = Array[PackedScene]([ExtResource("2_5oid0"), ExtResource("3_7qtf5"), ExtResource("4_5mexk"), ExtResource("5_7rnfu"), ExtResource("6_tiikd"), ExtResource("7_01ax8"), ExtResource("8_p6t7j"), ExtResource("9_012q1"), ExtResource("10_a8k3f"), ExtResource("11_x6jcm"), ExtResource("12_0oga3"), ExtResource("13_5oid0"), ExtResource("14_7qtf5")])
+pesos = Array[int]([1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 10, 7, 1])
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1758026766]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 49)
+size = Vector3(7, 0.1, 28)
+material = SubResource("StandardMaterial3D_n4ck0")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=61078189]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -49)
+size = Vector3(7, 0.1, 28)
+material = SubResource("StandardMaterial3D_n4ck0")

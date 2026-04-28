@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://cbhnl8qxyb3o1"]
+
+[ext_resource type="Script" uid="uid://de6xas8va7bh5" path="res://ui_juego.gd" id="1_rrvwa"]
+[ext_resource type="Texture2D" uid="uid://o8s33rv6yoxt" path="res://resources/Image/apple.png" id="1_wweic"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rrvwa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wweic"]
+
+[node name="Control" type="Control" unique_id=943439725 groups=["HUD"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rrvwa")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=402733048 groups=["HUD"]]
+visible = false
+
+[node name="PanelContainer" type="PanelContainer" parent="CanvasLayer" unique_id=340168419]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -538.0
+offset_top = 36.0
+offset_right = -35.0
+offset_bottom = 108.0
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_rrvwa")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/PanelContainer" unique_id=29244121]
+layout_mode = 2
+theme_override_constants/separation = 25
+alignment = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/PanelContainer/HBoxContainer" unique_id=1739809752]
+layout_mode = 2
+theme_override_constants/outline_size = 15
+text = "0"
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/PanelContainer/HBoxContainer" unique_id=1720001899]
+layout_mode = 2
+texture = ExtResource("1_wweic")
+expand_mode = 3
+
+[node name="PanelContainer2" type="PanelContainer" parent="CanvasLayer" unique_id=1554975767]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -192.5
+offset_right = 192.5
+offset_bottom = 104.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_wweic")
+
+[node name="Label" type="Label" parent="CanvasLayer/PanelContainer2" unique_id=1216886179]
+layout_mode = 2
+theme_override_constants/outline_size = 15
+text = "0 m"
+horizontal_alignment = 1
+vertical_alignment = 1

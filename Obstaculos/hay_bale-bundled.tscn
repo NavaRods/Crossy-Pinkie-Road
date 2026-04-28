@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bnui0rir048fy"]
+
+[ext_resource type="PackedScene" uid="uid://df18mubtvxccp" path="res://NPC/kenney_graveyard-kit_5.0/Models/GLB format/hay-bale-bundled.glb" id="1_ftg1c"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3hu18"]
+
+[node name="StaticBody3D" type="StaticBody3D" unique_id=1842768749]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=450538125]
+transform = Transform3D(6, 0, 0, 0, 1, 0, 0, 0, 6, 0, 0, 0)
+shape = SubResource("BoxShape3D_3hu18")
+
+[node name="hay-bale-bundled2" parent="CollisionShape3D" unique_id=1639273798 instance=ExtResource("1_ftg1c")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 5.988, 0, -1, 0, -4.371139e-08, 0.0012289286, 0, 0)

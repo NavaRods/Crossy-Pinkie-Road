@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b5i4385fkufht"]
+
+[ext_resource type="PackedScene" uid="uid://dmqwacv6xcx3i" path="res://player.tscn" id="1_u5kg4"]
+
+[node name="Camera" type="Node3D" unique_id=1765442895 groups=["Activos"]]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=392682803]
+transform = Transform3D(0.5263033, 0.55597323, -0.6433496, 0.018977255, 0.7487487, 0.66258234, 0.85008514, -0.36092824, 0.38351804, -6.095769, 29.957085, 24.6665)
+
+[node name="Player" parent="." unique_id=1391024077 instance=ExtResource("1_u5kg4")]

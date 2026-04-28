@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://blgean32grf1"]
+
+[ext_resource type="Script" uid="uid://ylpjtbldw7dv" path="res://Obstaculos/tronco.gd" id="1_64j7q"]
+[ext_resource type="PackedScene" uid="uid://big08a550q3fe" path="res://NPC/kenney_survival-kit/Models/GLB format/tree-log.glb" id="1_medcn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64j7q"]
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" unique_id=1447261653]
+collision_layer = 8
+collision_mask = 0
+script = ExtResource("1_64j7q")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1697237665]
+visible = false
+layers = 8
+use_collision = true
+collision_layer = 8
+collision_mask = 0
+size = Vector3(7, 1, 7)
+material = SubResource("StandardMaterial3D_64j7q")
+
+[node name="tree-log2" parent="." unique_id=1712331432 instance=ExtResource("1_medcn")]
+transform = Transform3D(14, 0, 0, 0, 5, 0, 0, 0, 6.5, 0, 0, 0)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2005617572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5814071, 0.85337603, 1.6647772)
+visible = false
+light_color = Color(1, 0.6666667, 0, 1)
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=892039946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5509313, 0.74858654, -1.092846)
+visible = false
+light_color = Color(1, 0.6666667, 0, 1)

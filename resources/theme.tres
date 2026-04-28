@@ -1,0 +1,9 @@
+[gd_resource type="Theme" format=3 uid="uid://5wbmve0ebrgd"]
+
+[ext_resource type="FontFile" uid="uid://cf2hchyp82h70" path="res://resources/Fonts/Daydream DEMO.otf" id="1_d4nwg"]
+
+[resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_d4nwg")
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("1_d4nwg")

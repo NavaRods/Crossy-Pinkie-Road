@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://c0k6p5pkg5lvr"]
+
+[ext_resource type="FontFile" uid="uid://cf2hchyp82h70" path="res://resources/Fonts/Daydream DEMO.otf" id="1_q0byg"]
+[ext_resource type="Script" uid="uid://btu5wxnj73h2x" path="res://meta_record.gd" id="1_whkli"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_whkli"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xdkyy"]
+albedo_color = Color(1, 0, 0, 1)
+
+[node name="MetaRecord" type="Node3D" unique_id=114646609 groups=["Meta"]]
+script = ExtResource("1_whkli")
+
+[node name="Label3D" type="Label3D" parent="." unique_id=1120335278]
+transform = Transform3D(-4.3711395e-09, 0, -40, 0, 0.1, 0, 0.10000002, 0, -1.7484556e-06, 0, 12.8, 0)
+pixel_size = 0.5
+text = "0 mts por Usuario"
+font = ExtResource("1_q0byg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1751206783]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 64, 0, 10, 0)
+mesh = SubResource("BoxMesh_whkli")
+surface_material_override/0 = SubResource("StandardMaterial3D_xdkyy")

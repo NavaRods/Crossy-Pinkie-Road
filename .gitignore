@@ -1,0 +1,20 @@
+# --- Archivos específicos de Godot ---
+.godot/
+*.tmp
+*.import/
+export_presets.cfg
+
+# --- Archivos de sistema y edición ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Bases de Datos (IMPORTANTE) ---
+# Si quieres que la base de datos se suba VACÍA para que el profesor la vea, 
+# NO añadidas la siguiente línea. 
+# Pero si quieres que cada quien tenga su propia DB local:
+# BD/*.db
+
+# --- Archivos de Blender ---
+# Blender genera archivos .blend1 de respaldo que no son necesarios
+*.blend1

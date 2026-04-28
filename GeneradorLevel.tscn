@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b76ibawwe8jtc"]
+
+[ext_resource type="Script" uid="uid://dqsmg27w5wxh3" path="res://GeneradorMundo.gd" id="1_eeqgi"]
+[ext_resource type="PackedScene" uid="uid://ogow5tlcrrau" path="res://pasto.tscn" id="2_kvu7i"]
+[ext_resource type="PackedScene" uid="uid://cnv08a32ka0bm" path="res://carrareta_1.tscn" id="3_obns3"]
+[ext_resource type="PackedScene" uid="uid://bec2goldgb64j" path="res://agua.tscn" id="4_by62w"]
+[ext_resource type="PackedScene" uid="uid://dekpu3ybxs4k0" path="res://SpawnArea.tscn" id="5_bphmx"]
+[ext_resource type="PackedScene" uid="uid://dmqwacv6xcx3i" path="res://player.tscn" id="5_by62w"]
+[ext_resource type="PackedScene" uid="uid://do1j8l2y1uwno" path="res://manzana.tscn" id="5_sntpv"]
+
+[node name="GeneradorMundo" type="Node3D" unique_id=1674073480 node_paths=PackedStringArray("player")]
+script = ExtResource("1_eeqgi")
+carril_pasto = ExtResource("2_kvu7i")
+carril_carretera = ExtResource("3_obns3")
+carril_agua = ExtResource("4_by62w")
+manzana_scena = ExtResource("5_sntpv")
+player = NodePath("Player")
+spawn_escena = ExtResource("5_bphmx")
+largo_spawn = 4
+
+[node name="Player" parent="." unique_id=1391024077 instance=ExtResource("5_by62w")]
